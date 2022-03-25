@@ -1,0 +1,1528 @@
+@media print, (max-width: 1279px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --sidebar_width: 280px;
+        --font_size_title: 40px;
+    }
+
+
+    html.custom_scroll ::-webkit-scrollbar
+    {
+        width: 5px;
+        height: 5px;
+    }
+
+
+    .block
+    {
+        margin-bottom: 80px;
+    }
+
+
+
+    .swiper-button-next,
+    .swiper-button-prev
+    {
+        width: 60px;
+        height: 120px;
+    }
+
+
+    .swiper-container-horizontal > .swiper-pagination-bullets,
+    .swiper-pagination-custom,
+    .swiper-pagination-fraction
+    {
+        bottom: -32px;
+    }
+
+
+
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__slide
+    {
+        padding: 32px;
+    }
+
+
+
+    /*----------------
+        Pagination
+    ----------------*/
+    .pagination .load_more_btn
+    {
+        padding: 18px;
+    }
+
+    .pagination .load_more_btn.big_w
+    {
+        width: calc(100% - 568px);
+    }
+
+
+    .pagination .links a,
+    .pagination .links .sep
+    {
+        font-size: 16px;
+        line-height: 40px;
+
+        width: 40px;
+        height: 40px;
+
+        border-radius: 8px;
+    }
+
+
+    .pagination .links .prev,
+    .pagination .links .next
+    {
+        width: 152px;
+        height: 52px;
+    }
+
+    .pagination .links .prev
+    {
+        margin-right: 12px;
+    }
+
+    .pagination .links .next
+    {
+        margin-left: 12px;
+    }
+
+
+
+    /*---------------
+        All links
+    ---------------*/
+    .all_links
+    {
+        margin-top: 28px;
+        margin-bottom: -12px;
+        margin-left: -12px;
+    }
+
+
+    .all_links .load_more_btn
+    {
+        width: calc(75% - 12px);
+        margin-bottom: 12px;
+        margin-left: 12px;
+        padding: 19px;
+    }
+
+
+    .all_links .link
+    {
+        width: calc(25% - 12px);
+        margin-bottom: 12px;
+        margin-left: 12px;
+        padding: 20px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header .menu .item + .item
+    {
+        margin-left: 24px;
+    }
+
+
+    header .search .mini_modal
+    {
+        width: 548px;
+    }
+
+
+    header .account .login_btn span
+    {
+        width: 80px;
+    }
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+    .page_head
+    {
+        padding-top: 24px;
+    }
+
+
+    .page_head .cont > .row
+    {
+        margin-top: 32px;
+    }
+
+
+    .page_title
+    {
+        margin-top: 32px;
+    }
+
+
+    .page_head .filter
+    {
+        width: 572px;
+    }
+
+
+
+    /*-------------
+        Sidebar
+    -------------*/
+    aside .item
+    {
+        padding: 24px;
+    }
+
+
+
+    aside .last_articles .title
+    {
+        font-size: 22px;
+        line-height: 24px;
+
+        margin-bottom: 20px;
+        padding: 4px 0 20px;
+    }
+
+
+    aside .last_articles .article + .article
+    {
+        margin-top: 20px;
+        padding-top: 20px;
+    }
+
+    aside .last_articles .article .info
+    {
+        padding: 24px;
+    }
+
+    aside .last_articles .article .date
+    {
+        font-size: 12px;
+        line-height: 14px;
+
+        margin-bottom: 12px;
+    }
+
+
+    aside .last_articles .article .name
+    {
+        font-size: 17px;
+        line-height: 23px;
+    }
+
+
+
+    aside .item.links
+    {
+        padding: 16px 24px;
+    }
+
+
+
+    aside .links a
+    {
+        font-size: 17px;
+        line-height: 23px;
+
+        padding: 12px 0;
+    }
+
+
+
+    aside .account .logout_btn
+    {
+        padding: 16px 20px;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head
+    {
+        margin-bottom: 28px;
+    }
+
+
+    .block_head .all_link a
+    {
+        padding: 12px 32px;
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form .submit_btn
+    {
+        padding: 20px;
+    }
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+    .text_block
+    {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+
+    .text_block > *
+    {
+        margin-bottom: 20px;
+    }
+
+
+    .text_block .big
+    {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+
+
+    /*--------------
+        Articles
+    --------------*/
+    .articles .grid
+    {
+        margin-bottom: -12px;
+        margin-left: -12px;
+
+        --articles_gutter: 12;
+    }
+
+    .articles .grid > *
+    {
+        width: calc(33.333% - 12px);
+        margin-bottom: 12px;
+        margin-left: 12px;
+    }
+
+
+    .articles .article
+    {
+        min-height: 236px;
+    }
+
+    .articles .article.big_h
+    {
+        min-height: 484px;
+    }
+
+
+    .articles .article .thumb
+    {
+        height: 236px;
+        margin-bottom: 6px;
+    }
+
+    .articles .article .thumb.big_h
+    {
+        height: 484px;
+    }
+
+
+    .articles .article .info
+    {
+        padding: 26px;
+    }
+
+
+    .articles .article .date
+    {
+        font-size: 12px;
+        line-height: 14px;
+
+        margin-bottom: 12px;
+    }
+
+    .articles .article .name
+    {
+        font-size: 18px;
+    }
+
+    .articles .article .desc
+    {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .articles .article .play_btn
+    {
+        top: 16px;
+        right: 16px;
+
+        width: 52px;
+        height: 52px;
+    }
+
+
+
+    .articles .matche
+    {
+        padding: 24px;
+    }
+
+    .articles .matche .date
+    {
+        margin-bottom: -8px;
+    }
+
+    .articles .matche .team
+    {
+        width: 92px;
+    }
+
+    .articles .matche .teams .score
+    {
+        font-size: 24px;
+        line-height: 34px;
+
+        margin: 24px -7px;
+    }
+
+    .articles .matche .desc
+    {
+        font-size: 14px;
+        line-height: 20px;
+
+        margin-top: 16px;
+    }
+
+
+
+    /*-------------
+        Banners
+    -------------*/
+    .banners.bg
+    {
+        padding: 60px 0 12px;
+    }
+
+
+    .banners .row
+    {
+        margin-bottom: -12px;
+        margin-left: -12px;
+    }
+
+    .banners .row > *
+    {
+        width: calc(25% - 12px);
+        margin-bottom: 12px;
+        margin-left: 12px;
+    }
+
+    .banners .row > *.middle_w
+    {
+        width: calc(33.333% - 12px);
+    }
+
+    .banners .row > *.big_w
+    {
+        width: calc(66.666% - 12px);
+    }
+
+    .banners .row > *.bigest_w
+    {
+        width: calc(75% - 12px);
+    }
+
+
+    .banners .banner img
+    {
+        height: 380px;
+    }
+
+
+
+    /*------------------
+        Article info
+    ------------------*/
+    .article_info
+    {
+        --sidebar_width: 300px;
+    }
+
+
+    .article_info .data .text_block
+    {
+        padding: 24px;
+    }
+
+
+    .article_info .data .bottom
+    {
+        padding: 8px 24px 24px;
+    }
+
+
+    .article_info .data .back_link
+    {
+        padding: 15px 27px;
+
+        border-radius: 8px;
+    }
+
+
+    .article_info .data .socials a + a
+    {
+        margin-left: 28px;
+    }
+
+
+
+    /*------------
+        Filter
+    ------------*/
+    .filter
+    {
+        margin-bottom: 28px;
+    }
+
+
+    .filter .row
+    {
+        margin-bottom: -12px;
+        margin-left: -12px;
+    }
+
+    .filter .row > *
+    {
+        margin-bottom: 12px;
+        margin-left: 12px;
+    }
+
+
+    .filter .title
+    {
+        width: calc(25% - 12px);
+    }
+
+
+    .filter .item
+    {
+        width: calc(16.666% - 12px);
+    }
+
+    .filter .item.big_w
+    {
+        width: calc(33.333% - 12px);
+    }
+
+
+
+    /*--------------
+        Calendar
+    --------------*/
+    .calendar .matche .time
+    {
+        font-size: 22px;
+        line-height: 28px;
+    }
+
+
+    .calendar .matche .score
+    {
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+
+    .calendar .matche .league
+    {
+        font-size: 15px;
+
+        width: 200px;
+        min-width: 200px;
+    }
+
+
+    .calendar .matche .status
+    {
+        width: 160px;
+        min-width: 160px;
+    }
+
+    .calendar .matche .status span
+    {
+        line-height: 14px;
+    }
+
+
+
+    .content .calendar .list
+    {
+        overflow: auto;
+
+        max-width: 100%;
+    }
+
+
+    .content .calendar .matche
+    {
+        width: 924px;
+    }
+
+    .content .calendar .matche .league
+    {
+        width: 200px;
+        min-width: 200px;
+    }
+
+    .content .calendar .matche .status
+    {
+        width: 160px;
+        min-width: 160px;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info
+    {
+        margin-bottom: 80px;
+    }
+
+
+    .contacts_info .data
+    {
+        width: calc(100% - 392px);
+    }
+
+
+    .contacts_info .data .info,
+    .contacts_info .socials
+    {
+        padding: 28px;
+    }
+
+
+    .contacts_info .data .title
+    {
+        font-size: 19px;
+        line-height: 23px;
+
+        margin-bottom: 20px;
+    }
+
+
+    .contacts_info .data .info .item,
+    .contacts_info .socials .items a
+    {
+        font-size: 21px;
+        line-height: calc(100% + 6px);
+    }
+
+
+    .contacts_info .data .info .items .icon,
+    .contacts_info .socials .items .icon
+    {
+        width: 48px;
+        height: 48px;
+
+        border-radius: 6px;
+    }
+
+    .contacts_info .data .info .items .icon + *,
+    .contacts_info .socials .items a span
+    {
+        width: calc(100% - 68px);
+    }
+
+
+    .contacts_info .feedback
+    {
+        width: 380px;
+        padding: 24px;
+    }
+
+    .contacts_info .feedback .title
+    {
+        font-size: 19px;
+        line-height: 23px;
+
+        margin-bottom: 20px;
+    }
+
+
+
+    /*---------------
+        Documents
+    ---------------*/
+    .documents .file
+    {
+        padding: 12px;
+    }
+
+
+    .documents .file .name
+    {
+        font-size: 17px;
+        line-height: 23px;
+
+        width: calc(100% - 192px);
+    }
+
+
+    .documents .file .download_link
+    {
+        width: 140px;
+        margin-left: 20px;
+    }
+
+
+
+    /*----------------
+        Error info
+    ----------------*/
+    .error_info
+    {
+        padding: 60px 0 120px;
+    }
+
+
+    .error_info .title
+    {
+        line-height: calc(var(--font_size_title) + 6px);
+    }
+
+
+    .error_info .desc
+    {
+        font-size: 21px;
+        line-height: calc(100% + 6px);
+
+        width: 308px;
+        margin-top: 20px;
+    }
+
+
+    .error_info .btns
+    {
+        margin-top: 40px;
+        margin-bottom: -12px;
+        margin-left: -12px;
+    }
+
+    .error_info .btns > *
+    {
+        margin-bottom: 12px;
+        margin-left: 12px;
+    }
+
+    .error_info .btns .btn
+    {
+        line-height: 14px;
+
+        min-width: 200px;
+        padding: 19px 31px;
+    }
+
+
+    .error_info .code
+    {
+        width: calc(100% - 460px);
+    }
+
+
+
+    /*-------------------
+        Matche before
+    -------------------*/
+    .matche_before .league
+    {
+        font-size: 15px;
+
+        top: 24px;
+        right: 24px;
+    }
+
+
+    .matche_before .data
+    {
+        min-height: 440px;
+        padding: 84px 40px;
+    }
+
+
+    .matche_before .team .logo
+    {
+        width: 200px;
+        height: 200px;
+    }
+
+    .matche_before .team .name
+    {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+
+    .matche_before .timer
+    {
+        width: 380px;
+        padding: 56px 40px;
+    }
+
+    .matche_before .timer .date
+    {
+        width: 200px;
+        margin-left: -100px;
+    }
+
+    .matche_before .timer .vals .val
+    {
+        font-size: 64px;
+        line-height: 100%;
+    }
+
+    .matche_before .timer .vals .sep
+    {
+        font-size: 64px;
+        line-height: 82%;
+    }
+
+    .matche_before .timer .vals .exp
+    {
+        margin-top: 12px;
+    }
+
+
+
+    /*---------------------
+        Matche finished
+    ---------------------*/
+    .matche_finished .data
+    {
+        min-height: 440px;
+        padding: 84px 40px;
+    }
+
+
+    .matche_finished .league
+    {
+        font-size: 15px;
+
+        top: 24px;
+        right: 24px;
+    }
+
+
+    .matche_finished .team .logo
+    {
+        width: 200px;
+        height: 200px;
+    }
+
+    .matche_finished .team .name
+    {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+
+    .matche_finished .result
+    {
+        width: 380px;
+        padding-top: 52px;
+    }
+
+
+    .matche_finished .result .date
+    {
+        width: 200px;
+        margin-left: -100px;
+    }
+
+
+    .matche_finished .result .score
+    {
+        font-size: 64px;
+        line-height: 100%;
+    }
+
+
+    .matche_finished .result .parts
+    {
+        margin-top: 32px;
+    }
+
+    .matche_finished .result .part
+    {
+        padding: 11px;
+    }
+
+    .matche_finished .result .parts .val
+    {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+
+
+    /*-----------------
+        Matche info
+    -----------------*/
+    .matche_info .teams
+    {
+        padding: 40px 24px;
+    }
+
+
+    .matche_info .stats
+    {
+        width: 408px;
+        max-width: calc(100% - 392px);
+    }
+
+    .matche_info .stats .item
+    {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .matche_info .stats .item + .item:before,
+    .matche_info .stats .item + .item:after
+    {
+        width: 280px;
+    }
+
+
+    .matche_info .team .logo
+    {
+        width: 172px;
+        height: 172px;
+    }
+
+
+
+    /*-------------------
+        Leagues links
+    -------------------*/
+    .leagues_links
+    {
+        margin-bottom: 28px;
+    }
+
+
+    .leagues_links .btn
+    {
+        font-size: 16px;
+        line-height: 22px;
+
+        padding: 8px;
+    }
+
+    .leagues_links .logo
+    {
+        width: 32px;
+        height: 32px;
+        margin-right: 8px;
+    }
+
+
+    .leagues_links .sep
+    {
+        height: 24px;
+    }
+
+
+
+    /*-----------------
+        League info
+    -----------------*/
+    .league_info
+    {
+        margin-bottom: 28px;
+    }
+
+
+    .league_info .data
+    {
+        height: 420px;
+        padding: 40px;
+    }
+
+
+    .league_info .logo
+    {
+        top: 32px;
+        left: 32px;
+
+        width: 100px;
+        height: 100px;
+    }
+
+
+    .league_info .play_btn
+    {
+        left: 18%;
+
+        width: 84px;
+        height: 84px;
+    }
+
+
+
+    /*------------------
+        League teams
+    ------------------*/
+    .league_teams .row
+    {
+        margin-bottom: -12px;
+        margin-left: -12px;
+    }
+
+    .league_teams .row > *
+    {
+        width: calc(20% - 12px);
+        margin-bottom: 12px;
+        margin-left: 12px;
+    }
+
+
+    .league_teams .team
+    {
+        padding: 20px 16px 16px;
+    }
+
+
+    .league_teams .team .logo
+    {
+        height: 92px;
+        margin-bottom: 20px;
+    }
+
+
+
+    /*------------------
+        Leaderboard
+    ------------------*/
+    .leaderboard .leagues
+    {
+        margin-bottom: 28px;
+    }
+
+
+    .leaderboard .leagues .btn
+    {
+        font-size: 16px;
+        line-height: 22px;
+
+        padding: 8px;
+    }
+
+    .leaderboard .leagues .logo
+    {
+        width: 32px;
+        height: 32px;
+        margin-right: 8px;
+    }
+
+
+    .leaderboard .leagues .sep
+    {
+        height: 24px;
+    }
+
+
+    .leaderboard .genders .btn
+    {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+
+    .leaderboard .titles
+    {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .leaderboard .titles > *
+    {
+        padding: 16px;
+    }
+
+
+    .leaderboard .table_line
+    {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+
+    .leaderboard .col_scores,
+    .leaderboard .col_points
+    {
+        width: 120px;
+        min-width: 120px;
+    }
+
+    .leaderboard .col_position
+    {
+        width: 140px;
+        min-width: 140px;
+    }
+
+
+    .leaderboard .table_link a
+    {
+        padding: 20px;
+    }
+
+
+
+    /*-------------
+        Profile
+    -------------*/
+    .profile .row
+    {
+        margin-bottom: -12px;
+        margin-left: -12px;
+    }
+
+    .profile .row > *
+    {
+        width: calc(50% - 12px);
+        margin-bottom: 12px;
+        margin-left: 12px;
+    }
+
+
+
+    .profile .item
+    {
+        padding: 24px;
+    }
+
+    .profile .item .title
+    {
+        font-size: 19px;
+        line-height: 23px;
+
+        margin-bottom: 20px;
+    }
+
+
+    .profile .contacts .items > * .icon
+    {
+        width: 48px;
+        height: 48px;
+    }
+
+    .profile .contacts .items > * .icon + *
+    {
+        width: calc(100% - 64px);
+    }
+
+
+    .profile .subscribe label
+    {
+        font-size: 17px;
+        line-height: 23px;
+
+        min-height: 28px;
+        padding-left: 64px;
+    }
+
+    .profile .subscribe label:before
+    {
+        width: 48px;
+        height: 28px;
+    }
+
+    .profile .subscribe label:after
+    {
+        width: 24px;
+        height: 24px;
+    }
+
+    .profile .subscribe input:checked + label:after
+    {
+        transform: translateX(20px);
+    }
+
+
+    .profile .item .bg
+    {
+        height: 100px;
+    }
+
+
+
+    /*----------------
+        Statistics
+    ----------------*/
+    .statistics .leagues
+    {
+        margin-bottom: 28px;
+    }
+
+
+    .statistics .leagues .btn
+    {
+        font-size: 16px;
+        line-height: 22px;
+
+        padding: 8px;
+    }
+
+    .statistics .leagues .logo
+    {
+        width: 32px;
+        height: 32px;
+        margin-right: 8px;
+    }
+
+
+    .statistics .leagues .sep
+    {
+        height: 24px;
+    }
+
+
+
+    .statistics .filter
+    {
+        margin-bottom: 28px;
+    }
+
+
+
+    .statistics .titles
+    {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .statistics .titles > *
+    {
+        padding: 16px;
+    }
+
+
+    .statistics .table_line
+    {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+
+    .statistics .col_scores,
+    .statistics .col_points
+    {
+        width: 120px;
+        min-width: 120px;
+    }
+
+    .statistics .col_position
+    {
+        width: 140px;
+        min-width: 140px;
+    }
+
+
+
+    /*---------------
+        Team info
+    ---------------*/
+    .team_info .data
+    {
+        padding: 72px 40px 40px;
+    }
+
+
+    .team_info .data > .logo
+    {
+        width: 240px;
+        height: 240px;
+        margin: 0;
+    }
+
+
+    .team_info .info
+    {
+        width: calc(100% - 292px);
+    }
+
+
+    .team_info .text_block
+    {
+        margin-top: 20px;
+    }
+
+
+
+    /*-------------
+        Players
+    -------------*/
+    .players
+    {
+        padding-bottom: 20px;
+    }
+
+
+    .players .row
+    {
+        margin-bottom: -12px;
+        margin-left: -12px;
+    }
+
+    .players .row > *
+    {
+        width: calc(33.333% - 12px);
+        margin-bottom: 12px;
+        margin-left: 12px;
+    }
+
+
+
+    .players .player
+    {
+        padding-top: 20px;
+    }
+
+
+    .players .player .photo
+    {
+        width: calc(100% - 120px);
+        height: 172px;
+    }
+
+
+    .players .player .info
+    {
+        width: 112px;
+    }
+
+
+    .players .player .player_name
+    {
+        font-size: 18px;
+        line-height: calc(100% + 6px);
+    }
+
+
+    .players .player .stats
+    {
+        padding-top: 16px;
+    }
+
+    .players .player .stats .val
+    {
+        font-size: 16px;
+        line-height: 22px;
+
+        margin-top: 4px;
+    }
+
+
+
+    /*----------------------
+        Upcoming matches
+    ----------------------*/
+    .upcoming_matches .matche
+    {
+        width: 100%;
+        padding: 88px 88px 40px;
+    }
+
+
+    .upcoming_matches .list
+    {
+        width: 100%;
+        height: 472px;
+        margin: 0 0 -40px;
+        padding: 40px 24px 40px 0;
+    }
+
+
+
+    /*-------------
+        Matches
+    -------------*/
+    .matches .filter .title
+    {
+        width: calc(100% - 12px);
+    }
+
+    .matches .filter .item
+    {
+        width: calc(25% - 12px);
+    }
+
+
+    .matches .cont > .row
+    {
+        margin-bottom: -12px;
+        margin-left: -12px;
+    }
+
+    .matches .cont > .row > *
+    {
+        width: calc(33.333% - 12px);
+        margin-bottom: 12px;
+        margin-left: 12px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer
+    {
+        padding: 60px 0 24px;
+    }
+
+
+
+    footer .subscribe
+    {
+        width: calc(100% - 280px);
+        padding: 24px;
+
+        border-radius: 12px;
+    }
+
+    footer .subscribe .notice
+    {
+        top: -16px;
+        left: -16px;
+
+        width: 44px;
+        height: 44px;
+    }
+
+
+    footer .subscribe .title
+    {
+        font-size: 22px;
+        line-height: 28px;
+    }
+
+
+    footer .subscribe form
+    {
+        width: calc(100% - 320px);
+    }
+
+    footer .subscribe form .icon
+    {
+        top: 4px;
+        left: 4px;
+
+        width: 44px;
+        height: 44px;
+    }
+
+    footer .subscribe form .input
+    {
+        font-size: 16px;
+
+        height: 52px;
+        padding: 0 67px;
+
+        border-radius: 8px;
+    }
+
+    footer .subscribe form .submit_btn
+    {
+        top: 4px;
+        right: 4px;
+
+        width: 44px;
+        height: 44px;
+    }
+
+    footer .subscribe form .agree
+    {
+        margin-top: 12px;
+    }
+
+    footer .subscribe form .agree label
+    {
+        padding-left: 24px;
+    }
+
+
+
+    footer .data
+    {
+        width: 232px;
+        margin-right: 0;
+    }
+
+
+    footer .phone
+    {
+        font-size: 17px;
+        line-height: 23px;
+
+        margin-top: 24px;
+        margin-left: 12px;
+    }
+
+    footer .email
+    {
+        font-size: 17px;
+        line-height: 23px;
+
+        margin-left: 12px;
+    }
+
+
+
+    footer .menu .item + .item
+    {
+        margin-left: 24px;
+    }
+
+
+    footer .instagram_link
+    {
+        margin-right: 0;
+        padding: 12px 20px;
+    }
+
+    footer .instagram_link span
+    {
+        margin-right: 0;
+        margin-left: 16px;
+    }
+
+
+    footer .copyright
+    {
+        margin-top: 24px;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+}

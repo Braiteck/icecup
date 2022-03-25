@@ -1,0 +1,1043 @@
+@media print, (max-width: 1023px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --sidebar_width: 100%;
+        --font_size_title: 34px;
+    }
+
+
+    .block
+    {
+        margin-bottom: 72px;
+    }
+
+
+    .content_flex .content
+    {
+        width: 100%;
+    }
+
+
+    .swiper-button-next,
+    .swiper-button-prev
+    {
+        width: 52px;
+        height: 100px;
+    }
+
+    .swiper-container-horizontal > .swiper-pagination-bullets,
+    .swiper-pagination-custom,
+    .swiper-pagination-fraction
+    {
+        bottom: -28px;
+    }
+
+
+
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__slide
+    {
+        padding: 24px;
+    }
+
+
+
+    /*----------------
+        Pagination
+    ----------------*/
+    .pagination
+    {
+        margin-top: 28px;
+
+        justify-content: center;
+    }
+
+
+    .pagination .load_more_btn,
+    .pagination .load_more_btn.big_w
+    {
+        width: 100%;
+        margin-bottom: 16px;
+        padding: 16px;
+    }
+
+
+    .pagination .links .prev,
+    .pagination .links .next
+    {
+        width: 148px;
+        height: 48px;
+    }
+
+
+
+    /*---------------
+        All links
+    ---------------*/
+    .all_links .load_more_btn
+    {
+        padding: 15px;
+    }
+
+
+    .all_links .link
+    {
+        padding: 16px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header
+    {
+        position: fixed;
+        z-index: 101;
+        top: 0;
+        left: 0;
+
+        width: 310px;
+        height: 100%;
+        min-height: -moz-available;
+        min-height: -webkit-fill-available;
+        min-height:         fill-available;
+        margin: 0;
+        padding: 0;
+
+        transition: transform .3s linear;
+        transform: translateX(-100%);
+
+        background: #fff;
+    }
+
+    header.show
+    {
+        transform: translateX(0);
+    }
+
+
+    header .mob_scroll
+    {
+        display: flex;
+        overflow: auto;
+
+        height: 100%;
+        min-height: -moz-available;
+        min-height: -webkit-fill-available;
+        min-height:         fill-available;
+        padding: 20px 0;
+
+        justify-content: flex-start;
+        align-items: flex-start;
+        align-content: flex-start;
+        flex-wrap: wrap;
+        overscroll-behavior-y: contain;
+    }
+
+    header .mob_scroll > *
+    {
+        width: 100%;
+    }
+
+
+
+    header .logo
+    {
+        display: none;
+    }
+
+
+    header .menu
+    {
+        display: block;
+
+        width: 100%;
+    }
+
+    header .menu .item + .item
+    {
+        margin-top: 16px;
+        margin-left: 0;
+    }
+
+    header .menu .item a
+    {
+        text-align: left;
+
+        justify-content: flex-start;
+    }
+
+
+    header .search
+    {
+        display: none;
+    }
+
+
+    header .account
+    {
+        width: 100%;
+        margin-top: 24px;
+        margin-left: 0;
+    }
+
+    header .account .login_btn
+    {
+        width: 100%;
+
+        justify-content: center;
+    }
+
+
+
+    /*-----------------
+        Mob. header
+    -----------------*/
+    .mob_header
+    {
+        display: block;
+    }
+
+
+
+    /*-------------
+        Sidebar
+    -------------*/
+    aside
+    {
+        margin-bottom: 40px;
+    }
+
+    .content + aside
+    {
+        margin-top: 40px;
+        margin-bottom: 0;
+    }
+
+
+
+    aside .last_articles .article .name
+    {
+        width: 100%;
+    }
+
+
+
+    aside .account .user
+    {
+        font-size: 18px;
+    }
+
+
+    aside .account .logout_btn
+    {
+        padding: 12px 24px;
+    }
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+    .page_title
+    {
+        line-height: calc(var(--font_size_title) + 6px);
+
+        margin-top: 24px;
+    }
+
+
+    .page_head .filter
+    {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+    .block_head .filter
+    {
+        width: 264px;
+    }
+
+
+
+    .block_head .all_link
+    {
+        margin-left: 32px;
+    }
+
+    .block_head .all_link a
+    {
+        padding: 12px 24px;
+    }
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+
+
+
+    /*--------------
+        Articles
+    --------------*/
+    .articles .grid > *
+    {
+        width: calc(50% - 16px);
+    }
+
+
+
+    /*-------------
+        Banners
+    -------------*/
+    .banners .banner
+    {
+        border-radius: 0 8px 8px 8px;
+    }
+
+    .banners .banner img
+    {
+        height: 288px;
+    }
+
+
+
+    /*------------------
+        Article info
+    ------------------*/
+    .article_info
+    {
+        --sidebar_width: 100%;
+    }
+
+
+
+    /*--------------
+        Calendar
+    --------------*/
+    .calendar .list
+    {
+        overflow: auto;
+
+        max-width: 100%;
+    }
+
+
+    .calendar .matche
+    {
+        width: 924px;
+    }
+
+    .calendar .matche .time
+    {
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+
+    .calendar .matche .score
+    {
+        font-size: 20px;
+        line-height: 26px;
+    }
+
+
+    .calendar .matche .league
+    {
+        font-size: 14px;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info
+    {
+        margin-bottom: 72px;
+    }
+
+
+    .contacts_info .data
+    {
+        width: 100%;
+    }
+
+
+    .contacts_info .feedback
+    {
+        width: 100%;
+        margin-top: 16px;
+        padding: 28px;
+    }
+
+
+
+    /*----------------
+        Error info
+    ----------------*/
+    .error_info
+    {
+        padding: 24px 0 100px;
+    }
+
+
+    .error_info .data
+    {
+        width: 100%;
+
+        text-align: center;
+
+        order: 2;
+    }
+
+    .error_info .data br
+    {
+        display: none;
+    }
+
+
+    .error_info .desc
+    {
+        font-size: 19px;
+
+        width: 100%;
+        margin-top: 16px;
+    }
+
+
+    .error_info .btns
+    {
+        margin-top: 32px;
+
+        justify-content: center;
+    }
+
+
+    .error_info .code
+    {
+        width: 100%;
+        margin-bottom: 24px;
+    }
+
+
+
+    /*-------------------
+        Matche before
+    -------------------*/
+    .matche_before .data
+    {
+        min-height: 400px;
+        padding: 80px 28px 40px;
+    }
+
+
+    .matche_before .team .logo
+    {
+        width: 160px;
+        height: 160px;
+    }
+
+    .matche_before .team .name
+    {
+        font-size: 17px;
+        line-height: 25px;
+    }
+
+
+    .matche_before .timer
+    {
+        width: calc(100% - 380px);
+        padding: 48px 24px;
+    }
+
+    .matche_before .timer .date
+    {
+        width: 180px;
+        margin-left: -90px;
+    }
+
+    .matche_before .timer .vals .val,
+    .matche_before .timer .vals .sep
+    {
+        font-size: 56px;
+    }
+
+    .matche_before .timer .vals .exp
+    {
+        margin-top: 8px;
+    }
+
+
+
+    /*---------------------
+        Matche finished
+    ---------------------*/
+    .matche_finished .data
+    {
+        min-height: 400px;
+        padding: 80px 28px 40px;
+    }
+
+
+    .matche_finished .team .logo
+    {
+        width: 160px;
+        height: 160px;
+    }
+
+    .matche_finished .team .name
+    {
+        font-size: 17px;
+        line-height: 25px;
+    }
+
+
+    .matche_finished .result
+    {
+        width: calc(100% - 380px);
+        padding-top: 48px;
+    }
+
+
+    .matche_finished .result .date
+    {
+        width: 180px;
+        margin-left: -90px;
+    }
+
+
+    .matche_finished .result .score
+    {
+        font-size: 56px;
+    }
+
+
+    .matche_finished .result .award
+    {
+        top: 12px;
+        left: 12px;
+
+        width: 28px;
+        height: 28px;
+    }
+
+    .matche_finished .result .award2
+    {
+        top: 12px;
+        right: 12px;
+
+        width: 28px;
+        height: 28px;
+    }
+
+
+    .matche_finished .result .parts
+    {
+        margin-top: 28px;
+    }
+
+    .matche_finished .result .part
+    {
+        padding: 11px 3px;
+    }
+
+    .matche_finished .result .parts .number
+    {
+        margin-bottom: 2px;
+    }
+
+    .matche_finished .result .parts .val
+    {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+
+
+    /*-----------------
+        Matche info
+    -----------------*/
+    .matche_info .teams
+    {
+        padding: 40px 24px;
+    }
+
+
+    .matche_info .stats
+    {
+        width: calc(100% - 352px);
+        max-width: 100%;
+    }
+
+    .matche_info .stats .item
+    {
+        font-size: 15px;
+        line-height: 21px;
+    }
+
+    .matche_info .stats .item + .item:before,
+    .matche_info .stats .item + .item:after
+    {
+        width: 200px;
+    }
+
+
+    .matche_info .team .logo
+    {
+        width: 140px;
+        height: 140px;
+    }
+
+
+
+    /*-------------------
+        Leagues links
+    -------------------*/
+    .leagues_links .btn
+    {
+        font-size: 15px;
+        line-height: 21px;
+
+        text-align: center;
+    }
+
+
+    .leagues_links .logo
+    {
+        width: 100%;
+        margin: 0 0 4px;
+    }
+
+
+
+    /*-----------------
+        League info
+    -----------------*/
+    .league_info .data
+    {
+        height: 360px;
+        padding: 28px;
+    }
+
+
+    .league_info .info
+    {
+        width: 60%;
+    }
+
+
+    .league_info .name
+    {
+        line-height: calc(var(--font_size_title) + 6px);
+    }
+
+
+    .league_info .text_block
+    {
+        color: currentColor;
+        font-size: 15px;
+        line-height: 21px;
+
+        margin-top: 12px;
+    }
+
+
+    .league_info .logo
+    {
+        top: 24px;
+        left: 24px;
+
+        width: 92px;
+        height: 92px;
+    }
+
+
+    .league_info .play_btn
+    {
+        left: 18%;
+
+        width: 72px;
+        height: 72px;
+    }
+
+
+
+    /*------------------
+        League teams
+    ------------------*/
+    .league_teams .row > *
+    {
+        width: calc(25% - 12px);
+    }
+
+
+    .league_teams .team .logo
+    {
+        margin-bottom: 16px;
+    }
+
+
+
+    /*------------------
+        Leaderboard
+    ------------------*/
+    .leaderboard .leagues .btn
+    {
+        font-size: 15px;
+        line-height: 21px;
+
+        text-align: center;
+    }
+
+    .leaderboard .leagues .logo
+    {
+        width: 100%;
+        margin: 0 0 4px;
+    }
+
+
+
+    .leaderboard .table_wrap
+    {
+        overflow: auto;
+
+        max-width: 100%;
+    }
+
+
+    .leaderboard .titles
+    {
+        font-size: 15px;
+        line-height: 21px;
+
+        width: 924px;
+    }
+
+
+    .leaderboard .table_line
+    {
+        font-size: 15px;
+        line-height: 21px;
+
+        width: 924px;
+    }
+
+
+    .leaderboard .table_link a
+    {
+        padding: 16px;
+    }
+
+
+
+    /*-------------
+        Profile
+    -------------*/
+    .profile .item .title
+    {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+
+
+    /*----------------
+        Statistics
+    ----------------*/
+    .statistics .leagues .btn
+    {
+        font-size: 15px;
+        line-height: 21px;
+
+        text-align: center;
+    }
+
+
+    .statistics .leagues .logo
+    {
+        width: 100%;
+        margin: 0 0 4px;
+    }
+
+
+
+    .statistics .table_wrap
+    {
+        overflow: auto;
+
+        max-width: 100%;
+    }
+
+
+    .statistics .titles
+    {
+        font-size: 15px;
+        line-height: 21px;
+
+        width: 924px;
+    }
+
+
+    .statistics .table_line
+    {
+        font-size: 15px;
+        line-height: 21px;
+
+        width: 924px;
+    }
+
+
+
+    /*---------------
+        Team info
+    ---------------*/
+    .team_info .data
+    {
+        padding: 172px 24px 24px;
+    }
+
+
+    .team_info .data > .logo
+    {
+        position: absolute;
+        top: 16px;
+        left: 16px;
+
+        width: 140px;
+        height: 140px;
+        margin: 0;
+    }
+
+
+    .team_info .league
+    {
+        top: 24px;
+        right: 24px;
+    }
+
+
+    .team_info .info
+    {
+        width: 100%;
+    }
+
+
+
+    /*-------------
+        Players
+    -------------*/
+    .players .row > *
+    {
+        width: calc(50% - 12px);
+    }
+
+
+
+    .players .player .photo
+    {
+        width: calc(100% - 132px);
+        height: 172px;
+    }
+
+
+    .players .player .info
+    {
+        width: 132px;
+    }
+
+
+
+    /*----------------------
+        Upcoming matches
+    ----------------------*/
+    .upcoming_matches .matche .league
+    {
+        font-size: 15px;
+    }
+
+
+    .upcoming_matches .matche
+    {
+        padding: 76px 40px 40px;
+    }
+
+
+    .upcoming_matches .matche .play_btn
+    {
+        width: 140px;
+        height: 140px;
+        margin: 10px 0;
+    }
+
+    .upcoming_matches .matche .play_btn .icon
+    {
+        width: 92px;
+        height: 92px;
+    }
+
+
+    .upcoming_matches .matche .team .logo
+    {
+        width: 160px;
+        height: 160px;
+    }
+
+    .upcoming_matches .matche .team .name
+    {
+        font-size: 19px;
+        line-height: 29px;
+    }
+
+
+    .upcoming_matches .stats .item .val
+    {
+        width: 160px;
+    }
+
+
+    .upcoming_matches .list
+    {
+        height: 416px;
+        padding: 24px 20px 24px 0;
+    }
+
+
+
+    /*-------------
+        Matches
+    -------------*/
+    .matches .filter .item
+    {
+        width: calc(33.333% - 12px);
+    }
+
+
+    .matches .cont > .row > *
+    {
+        width: calc(50% - 12px);
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .cont + .cont
+    {
+        margin-top: 40px;
+    }
+
+
+    footer .subscribe
+    {
+        width: 100%;
+        margin-bottom: 40px;
+        padding: 24px 28px;
+    }
+
+    footer .subscribe .title
+    {
+        font-size: 21px;
+        line-height: 27px;
+    }
+
+
+    footer .data
+    {
+        display: flex;
+
+        width: 100%;
+
+        justify-content: space-between;
+        align-items: center;
+        align-content: center;
+        flex-wrap: wrap;
+    }
+
+
+    footer .contacts
+    {
+        display: flex;
+
+        margin-left: auto;
+
+        justify-content: flex-start;
+        align-items: center;
+        align-content: center;
+        flex-wrap: wrap;
+    }
+
+
+    footer .phone
+    {
+        font-size: 16px;
+        line-height: 22px;
+
+        margin-top: 0;
+        margin-left: 0;
+    }
+
+    footer .email
+    {
+        font-size: 16px;
+        line-height: 22px;
+
+        margin-top: 0;
+        margin-left: 40px;
+    }
+
+
+    footer .menu
+    {
+        width: 100%;
+
+        justify-content: space-between;
+    }
+
+    footer .menu .item + .item
+    {
+        margin-left: 0;
+    }
+
+
+    footer .instagram_link
+    {
+        margin-top: 24px;
+        margin-left: auto;
+
+        order: 3;
+    }
+
+
+    footer .copyright
+    {
+        width: auto;
+        margin-top: 24px;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+}

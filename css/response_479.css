@@ -1,0 +1,572 @@
+@media (max-width: 479px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --font_size_title: 26px;
+    }
+
+
+    .cont
+    {
+        padding: 0 20px;
+    }
+
+
+    .swiper-button-prev
+    {
+        margin-left: -50vw;
+    }
+
+    .swiper-button-next
+    {
+        margin-right: -50vw;
+    }
+
+
+
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__slide
+    {
+        padding: 16px;
+    }
+
+
+
+    /*----------------
+        Pagination
+    ----------------*/
+    .pagination .links .prev,
+    .pagination .links .next
+    {
+        width: 40px;
+        height: 40px;
+    }
+
+    .pagination .links .prev span,
+    .pagination .links .next span
+    {
+        display: none;
+    }
+
+    .pagination .links .prev .icon,
+    .pagination .links .next .icon
+    {
+        margin: 0;
+    }
+
+
+
+    /*---------------
+        All links
+    ---------------*/
+    .all_links
+    {
+        margin-left: 0;
+    }
+
+    .all_links .load_more_btn
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .all_links .link
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+
+    /*-------------
+        Sidebar
+    -------------*/
+    aside .item
+    {
+        padding: 20px;
+    }
+
+
+
+    aside .last_articles .title
+    {
+        font-size: 21px;
+        line-height: 25px;
+    }
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+
+
+
+    /*----------------
+        Block head
+    ----------------*/
+
+
+
+    /*------------------
+        Form elements
+    ------------------*/
+    .form .columns > *
+    {
+        width: calc(100% - var(--form_columns_offset));
+    }
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+    .text_block .big
+    {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+
+
+    /*--------------
+        Articles
+    --------------*/
+    .articles .article .thumb.big_h
+    {
+        height: 424px;
+    }
+
+
+
+    /*-------------
+        Banners
+    -------------*/
+    .banners .row > *,
+    .banners .row > *.middle_w,
+    .banners .row > *.big_w,
+    .banners .row > *.bigest_w
+    {
+        width: calc(100% - 12px);
+    }
+
+
+    .banners .banner img
+    {
+        height: 288px;
+    }
+
+
+
+    /*------------
+        Filter
+    ------------*/
+    .filter .item.big_w
+    {
+        width: calc(100% - 12px);
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info .data .info .item,
+    .contacts_info .socials .items a
+    {
+        font-size: 18px;
+    }
+
+
+
+    /*---------------
+        Documents
+    ---------------*/
+    .documents .file
+    {
+        flex-wrap: wrap;
+    }
+
+    .documents .file .name
+    {
+        width: calc(100% - 32px);
+    }
+
+
+    .documents .file .download_link
+    {
+        width: 100%;
+        margin-top: 12px;
+        margin-left: 0;
+    }
+
+
+
+    /*----------------
+        Error info
+    ----------------*/
+    .error_info
+    {
+        padding: 12px 0 64px;
+    }
+
+
+    .error_info .desc
+    {
+        font-size: 16px;
+    }
+
+
+    .error_info .btns
+    {
+        display: block;
+    }
+
+    .error_info .btns .btn
+    {
+        width: 100%;
+        min-width: 0;
+        padding: 15px 27px;
+    }
+
+
+
+    /*-------------------
+        Matche before
+    -------------------*/
+    .matche_before .league .place
+    {
+        font-size: 13px;
+        line-height: 15px;
+    }
+
+
+    .matche_before .timer
+    {
+        padding: 32px 24px 24px;
+    }
+
+
+    .matche_before .timer .vals .val,
+    .matche_before .timer .vals .sep
+    {
+        font-size: 48px;
+    }
+
+    .matche_before .timer .vals .exp
+    {
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+
+
+    /*---------------------
+        Matche finished
+    ---------------------*/
+    .matche_finished .league .place
+    {
+        font-size: 13px;
+        line-height: 15px;
+    }
+
+
+    .matche_finished .result
+    {
+        padding-top: 44px;
+    }
+
+
+    .matche_finished .result .score
+    {
+        font-size: 48px;
+    }
+
+    .matche_finished .result .score .wins:after
+    {
+        width: 12px;
+        height: 16px;
+
+        border-top-width: 8px;
+        border-right-width: 12px;
+        border-bottom-width: 8px;
+    }
+
+    .matche_finished .result .score .val + .val.wins:after
+    {
+        border-top-width: 8px;
+        border-bottom-width: 8px;
+        border-left-width: 12px;
+    }
+
+
+    .matche_finished .result .parts
+    {
+        margin-top: 24px;
+    }
+
+
+    .matche_finished .result .parts .val
+    {
+        font-size: 15px;
+        line-height: 21px;
+    }
+
+
+
+    /*-----------------
+        Matche info
+    -----------------*/
+    .matche_info .teams
+    {
+        padding: 20px;
+    }
+
+
+
+    /*-------------------
+        Leagues links
+    -------------------*/
+    .leagues_links .btn
+    {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+
+
+    /*-----------------
+        League info
+    -----------------*/
+    .league_info .data
+    {
+        padding: 132px 24px 24px;
+    }
+
+
+
+    /*------------------
+        League teams
+    ------------------*/
+    .league_teams .row > *
+    {
+        width: calc(50% - 12px);
+    }
+
+
+
+    /*-------------
+        Profile
+    -------------*/
+    .profile .item .bg
+    {
+        height: 80px;
+    }
+
+
+
+    /*----------------
+        Statistics
+    ----------------*/
+    .statistics .leagues .btn
+    {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+
+
+    /*---------------
+        Team info
+    ---------------*/
+    .team_info .data
+    {
+        padding-top: 148px;
+    }
+
+
+    .team_info .data > .logo
+    {
+        top: 12px;
+        left: 12px;
+
+        width: 120px;
+        height: 120px;
+    }
+
+
+    .team_info .league
+    {
+        top: 16px;
+        right: 16px;
+    }
+
+
+
+    /*-------------
+        Players
+    -------------*/
+    .players .row
+    {
+        margin-left: 0;
+    }
+
+    .players .row > *
+    {
+        width: 100%;
+        margin-left: 0;
+    }
+
+
+
+    .players .player
+    {
+        padding: 20px 16px 16px;
+    }
+
+    .players .player .photo
+    {
+        width: calc(100% - 124px);
+    }
+
+    .players .player .info
+    {
+        width: 124px;
+    }
+
+
+
+    /*----------------------
+        Upcoming matches
+    ----------------------*/
+    .upcoming_matches .matche .title
+    {
+        display: none;
+    }
+
+
+    .upcoming_matches .matche .league
+    {
+        font-size: 14px;
+
+        width: calc(100% - 148px);
+
+        white-space: normal;
+    }
+
+
+    .upcoming_matches .matche .team .logo
+    {
+        width: 92px;
+        height: 92px;
+    }
+
+    .upcoming_matches .matche .team .name
+    {
+        font-size: 15px;
+        line-height: 21px;
+    }
+
+
+    .upcoming_matches .matche .play_btn
+    {
+        width: 64px;
+        height: 64px;
+        margin: 14px auto;
+    }
+
+    .upcoming_matches .matche .play_btn .icon
+    {
+        width: 40px;
+        height: 40px;
+    }
+
+
+    .upcoming_matches .stats .item .val
+    {
+        width: 92px;
+    }
+
+
+
+    .upcoming_matches .list .teams .team
+    {
+        width: calc(50% - 8px);
+    }
+
+
+
+    /*-------------
+        Matches
+    -------------*/
+    .matches .filter .item
+    {
+        width: calc(100% - 12px);
+    }
+
+
+
+    /*------------------
+        Leaderboard
+    ------------------*/
+    .leaderboard .leagues .btn
+    {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .cont + .cont
+    {
+        margin-top: 24px;
+    }
+
+
+    footer .phone
+    {
+        font-size: 15px;
+        line-height: 21px;
+    }
+
+
+    footer .email
+    {
+        font-size: 15px;
+        line-height: 21px;
+
+        margin-left: auto;
+    }
+
+
+    footer .instagram_link
+    {
+        width: 100%;
+
+        order: 0;
+        justify-content: center;
+    }
+
+
+    footer .copyright
+    {
+        width: 100%;
+        margin-top: 24px;
+
+        text-align: center;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+}
